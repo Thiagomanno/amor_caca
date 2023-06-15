@@ -1,6 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   
@@ -17,7 +17,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
    
-
   }
   
   header {
@@ -27,7 +26,7 @@ body {
     text-align: center;
   }
 
-  h1{
+  h1 {
     
     font-size: 38px;
     font-style: italic;
@@ -45,7 +44,7 @@ body {
   } 
 
 
-  .galeria{
+  .galeria {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -72,7 +71,8 @@ body {
   height: 50vh;
 
 }
-h2{
+
+h2 {
   
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 100;
@@ -80,7 +80,7 @@ h2{
     font-size: 15px;
      
 }
-strong{
+strong {
   font-family: 'Libre Baskerville', serif;
   font-size: 20px;
 }  
