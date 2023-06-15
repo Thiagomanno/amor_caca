@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  
+  }
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    width: 100vw;
+    background-color: #d2bc92; /* Laranja */
+    background-image: linear-gradient(to bottom, #d2bc92, #ADD8E6); /* Gradiente de laranja para azul claro */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+
+  }
+  
+  header {
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  h1{
+    
+    font-size: 38px;
+    font-style: italic;
+    text-decoration: solid;
+    font-family: 'Libre Baskerville', serif;
+
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;    
+    padding: 30px;
+  } 
+
+
+  .galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+
+  .galeria img {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+ }
+  
+
+.galeria img:hover,
+.galeria img:active {
+  display: flex;
+  flex-direction: row;
+  transform: scale(1.1);
+  cursor: pointer;
+  width: 50vw;
+  height: 50vh;
+
+}
+h2{
+  
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+     
+}
+strong{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+}  
+
+
+  footer {
+    border-top: 19px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+  } 
