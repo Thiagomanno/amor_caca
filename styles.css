@@ -114,11 +114,11 @@ strong{
   @media (max-width: 1000px) {
     .galeria{
       width: auto;
-     
-
+    
     }
 
       header {
+    font-size: 20px;
     padding: 5px;
     text-align: center;
   }
