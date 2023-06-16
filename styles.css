@@ -118,6 +118,10 @@ strong{
 
     }
 
+      header {
+    padding: 5px;
+    text-align: center;
+  }
     .quadrado{
       width: auto;
     }
